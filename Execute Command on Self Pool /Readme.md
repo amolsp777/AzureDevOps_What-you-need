@@ -1,7 +1,9 @@
 # Execute Command on Self Pool
 
-You need to install few packages on the Self hosted pool if those are missing and you don't have access to SSH oh that machine.
-You can push the package installation using this process or `yml` using pipeline.
+## Configure Azure Self-Hosted Pool 
+// Note - If you already have VMSS configured on Azure and Instances are running 
+You need to install a few packages on the Self-hosted pool if those are missing and you don't have access to SSH oh that machine.
+You can push the package installation using this process or use `yml` in the pipeline.
 
 ``` yaml
 # Starter pipeline
